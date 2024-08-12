@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <title>Moxatex</title>
+    <meta name="description" content="">
+    <!-- responsive tag -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link id="favicon" rel="shortcut icon" href="assets/images/fav/fav.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/images/fav/fav.png" type="image/png">
+    <!-- bootstrap v5 css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Swiper Slider css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+    <!--Aos-->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/respnsive.css">
+    <script src="assets/js/gsap.min.js"></script>
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body id="vertical" class="scrollby-body" data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
+    <!-- ============================================================== -->
+    <!-- Loading - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="loading">
+        <div class="loadingWrapper">
+            <div id="loading"> </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Header - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="header section menu-sticky" data-bg="#171c28" data-text="#fff">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 my-0">
+                    <a href="#" class="d-block w-100">
+                        <img src="assets/images/logo/MoxatexLogo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-6 my-0">
+                    <!--Nav-->
+                    <nav id="nav-main" class="skew">
+                        <a class="js-anchor-link linkAnchor" href="#work">Works</a>
+                        <a class="js-anchor-link linkAnchor" href="#services">Services</a>
+                        <a class="js-anchor-link linkAnchor" href="#about">About Us</a>
+                    </nav>
+                    <button id="menu-button" class="menu-button" style="mix-blend-mode: exclusion">
+                        <span class="menu-bars" id="menuBox">
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- We don't make ads - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="makeAds section" data-bg="#171c28" data-text="#fff">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-11 col-lg-12">
+                    <h1 class="mainTitle animate-title">
+                        We don't make ads
+                        <span class="d-block">We crash culture</span>
+                    </h1>
+                    <p class="text-center wText animate-title">Everything we do–from creative through to media–is
+                        consumer-led.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Category Slider - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="categorySlider section" data-bg="#171c28" data-text="#fff" data-aos="fade-up">
+        <!-- Swiper -->
+        <div class="swiper mySwiper category">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="cardSlider" style="background: #E0D0B9;">
+                        <div class="headerPart">
+                            <span class="d-block">creative</span>
+                            <h3>Curiosity unleashed</h3>
+                        </div>
+                        <!---->
+                        <div class="bodyPart">
+                            <img src="assets/images/categoryslider/creativeimg.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="swiper-slide" style=" background: #cfd2e7 url(assets/images/categoryslider/media.png);">
+                    <div class="cardSlider Media">
+                        <div class="headerPart">
+                            <span class="d-block">Media</span>
+                            <h3>Business outcomes,
+                                Not potential reach</h3>
+                        </div>
+                        <!---->
+                        <div class="bodyPart">
+                            <img src="assets/images/categoryslider/mediaimg.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="swiper-slide">
+                    <div class="cardSlider" style="background: #EBE9EA;">
+                        <div class="headerPart">
+                            <span class="d-block">Strategy</span>
+                            <h3>Build things that
+                                inspire people</h3>
+                        </div>
+                        <!---->
+                        <div class="bodyPart">
+                            <img src="assets/images/categoryslider/Strategyimg.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="swiper-slide">
+                    <div class="cardSlider" style=" background: #A5D9F1;">
+                        <div class="headerPart">
+                            <span class="d-block">Consulting</span>
+                            <h3>Steal our brains</h3>
+                        </div>
+                        <!---->
+                        <div class="bodyPart">
+                            <img src="assets/images/categoryslider/Consultingimg.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+
+    </div>
+    <!-- ============================================================== -->
+    <!-- we are a result driven agency - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="resultDrivenAgency section" data-bg="#171c28" data-text="#fff" data-aos="fade-up">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-11 col-lg-12">
+                    <h2 class="resultDrivenAgencyTitle text-center wText">
+                        we are a result driven agency
+                        helps brands build <span>Sustainable</span>
+                        Compounding Growth.
+                    </h2>
+                </div>
+                <div class="col-xxl-9 col-lg-10 col-11">
+                    <p class="resultDrivenAgencyP text-center wText">
+                        The growth squad behind some of the world’s most successful brands, If you’re looking for a
+                        traditional marketing agency.
+                    </p>
+                    <div id="containerCircle">
+                        <div id="circle" class="blur">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px"
+                                viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                                <defs>
+                                    <path id="circlePath"
+                                        d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+                                </defs>
+                                <circle cx="150" cy="100" r="75" fill="none" />
+                                <g>
+                                    <use xlink:href="#circlePath" fill="none" />
+                                    <text fill="#f8f8f8">
+                                        <textPath xlink:href="#circlePath"><!--FeelnJoy-->Let’s Talk . Let’s Talk .
+                                            Let’s Talk .
+                                        </textPath>
+                                    </text>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- Recent Works - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="recentWorks section" id="work" data-bg="#171c28" data-text="#fff">
+        <div class="swiper-container swiper--text">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Recent Works</div>
+                <div class="swiper-slide">Recent Works</div>
+                <div class="swiper-slide">Recent Works</div>
+                <div class="swiper-slide">Recent Works</div>
+                <div class="swiper-slide">Recent Works</div>
+            </div>
+        </div>
+        <!---->
+        <!-- Swiper -->
+        <div class="container">
+            <div class="swiper mySwiper halfContainer" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="recentWorksBox">
+                            <div class="recentWorksBoxiImagePart">
+                                <img class="d-block w-100" src="assets/images/recentWork/recentWork1.png"
+                                    alt="Billy Joe’s">
+                            </div>
+                            <!---->
+                            <div class="recentWorksBoxiTextPart">
+                                <h4>Billy Joe’s </h4>
+                                <span>
+                                    Social Media
+                                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.92218 20.1643L20.1899 2.53943L2.92218 20.1643ZM20.1899 2.53943H6.37303H20.1899ZM20.1899 2.53943V15.4276V2.53943Z"
+                                            fill="black" />
+                                        <path
+                                            d="M2.92218 20.1643L20.1899 2.53943M20.1899 2.53943H6.37303M20.1899 2.53943V15.4276"
+                                            stroke="white" stroke-width="3.23063" stroke-linecap="square" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <div class="recentWorksBox">
+                            <div class="recentWorksBoxiImagePart">
+                                <img class="d-block w-100" src="assets/images/recentWork/recentWork2.png"
+                                    alt="Billy Joe’s" />
+                            </div>
+                            <!---->
+                            <div class="recentWorksBoxiTextPart">
+                                <h4>Billy Joe’s </h4>
+                                <span>
+                                    Social Media
+                                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.92218 20.1643L20.1899 2.53943L2.92218 20.1643ZM20.1899 2.53943H6.37303H20.1899ZM20.1899 2.53943V15.4276V2.53943Z"
+                                            fill="black" />
+                                        <path
+                                            d="M2.92218 20.1643L20.1899 2.53943M20.1899 2.53943H6.37303M20.1899 2.53943V15.4276"
+                                            stroke="white" stroke-width="3.23063" stroke-linecap="square" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Our Services - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="ourServices section" id="services" data-bg="#171c28" data-text="#fff">
+        <div class="container customeBorderBottom">
+            <div class="row justify-content-center">
+                <div class="col-xxl-10 col-lg-11 col-md-12">
+                    <div class="ourServicesTitle text-center p-relative">
+                        <h3 class="mainTitle" data-aos="fade-up">Our Services</h3>
+                        <span class="d-block">What service we offer</span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <ul class="nav nav-tabs justify-content-between" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active text" id="one-tab" data-bs-toggle="tab" data-bs-target="#one"
+                                type="button" role="tab" aria-controls="one" aria-selected="true">Marketing </button>
+                        </li>
+                        <!---->
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text" id="two-tab" data-bs-toggle="tab" data-bs-target="#two"
+                                type="button" role="tab" aria-controls="two" aria-selected="false">Social
+                            </button>
+                        </li>
+                        <!---->
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text" id="three-tab" data-bs-toggle="tab" data-bs-target="#three"
+                                type="button" role="tab" aria-controls="three" aria-selected="false">digtal </button>
+                        </li>
+                        <!---->
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text" id="four-tab" data-bs-toggle="tab" data-bs-target="#four"
+                                type="button" role="tab" aria-controls="four" aria-selected="false">studio</button>
+                        </li>
+                        <!---->
+                    </ul>
+                    <!---->
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                            <div class="tapTitleWithImage d-flex justify-content-center">
+                                <h3 class="p-relative">
+                                    Market
+                                    <br>
+                                    -ing
+                                    <img src="assets/images/icon/titleIcon.png" alt="image" data-aos="fade-up" />
+                                    <span>.</span>
+                                </h3>
+                            </div>
+                            <!---->
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm- mb-30">
+                                    <div class="servicesCard">
+                                        <div class="icon">
+                                            <svg width="49" height="43" viewBox="0 0 49 43" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M32.9314 36.8856C29.6078 39.4042 25.6412 40.7353 21.4604 40.7353C10.9191 40.7353 2.34303 32.1948 2.34303 21.6972C2.34303 11.1996 10.9191 2.65903 21.4604 2.65903C25.6412 2.65903 29.6078 3.9902 32.9314 6.50878C35.7733 8.66227 37.9784 11.6154 39.2432 14.9279H41.4399C40.0936 10.9575 37.5371 7.40444 34.1789 4.85962C30.4933 2.06678 26.0953 0.59053 21.4604 0.59053C9.77948 0.59053 0.276306 10.059 0.276306 21.6972C0.276306 33.3354 9.77948 42.8038 21.4604 42.8038C26.0953 42.8038 30.4933 41.3276 34.1789 38.5347C37.5371 35.9899 40.0937 32.4369 41.4399 28.4664H39.2432C37.9784 31.7789 35.7732 34.7321 32.9314 36.8856Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M21.461 6.32762C12.9923 6.32762 6.10242 13.2233 6.10242 21.6993C6.10242 30.1752 12.9922 37.0709 21.461 37.0709C28.7087 37.0709 34.7993 32.02 36.405 25.2506L35.1475 22.7335H34.7128C34.1838 29.5875 28.4423 35.0024 21.4609 35.0024C14.1317 35.0024 8.16905 29.0346 8.16905 21.6993C8.16905 14.3639 14.1317 8.39612 21.4609 8.39612C28.4423 8.39612 34.1838 13.8112 34.7128 20.665H35.1475L36.405 18.1479C34.7993 11.3785 28.7087 6.32762 21.461 6.32762Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M21.4597 12.0579C16.1505 12.0579 11.8312 16.3809 11.8312 21.6946C11.8312 27.0083 16.1505 31.3314 21.4597 31.3314C26.4197 31.3314 30.5154 27.558 31.0326 22.7289H28.9491C28.4434 26.4143 25.2787 29.2629 21.4598 29.2629C17.2902 29.2629 13.898 25.8678 13.898 21.6946C13.898 17.5214 17.2901 14.1264 21.4598 14.1264C25.2787 14.1264 28.4435 16.9751 28.9491 20.6604H31.0326C30.5154 15.8312 26.4197 12.0579 21.4597 12.0579Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M21.4601 17.795C19.3105 17.795 17.5616 19.5453 17.5616 21.6967C17.5616 23.8481 19.3105 25.5984 21.4601 25.5984C23.2519 25.5984 24.7643 24.3819 25.2184 22.7309H22.971C22.6406 23.2129 22.0868 23.53 21.4601 23.53C20.4501 23.53 19.6284 22.7075 19.6284 21.6967C19.6284 20.6859 20.4501 19.8634 21.4601 19.8634C22.0868 19.8634 22.6407 20.1805 22.971 20.6625H25.2184C24.7643 19.0115 23.2519 17.795 21.4601 17.795Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M46.0774 22.7325H47.3409C47.9116 22.7325 48.3743 22.2694 48.3743 21.6982C48.3743 21.127 47.9116 20.664 47.3409 20.664H46.0774L48.2589 16.4379C48.4245 16.1174 48.411 15.7336 48.2235 15.4253C48.036 15.1171 47.7015 14.929 47.3409 14.929H38.6504C38.2589 14.929 37.9011 15.1503 37.7261 15.5007L35.1466 20.664H21.6948C21.1241 20.664 20.6614 21.127 20.6614 21.6982C20.6614 22.2694 21.1241 22.7325 21.6948 22.7325H35.1466L37.7261 27.8957C37.9011 28.2461 38.2589 28.4675 38.6504 28.4675H47.3409C47.7015 28.4675 48.036 28.2793 48.2235 27.9711C48.4111 27.6629 48.4246 27.2791 48.2589 26.9585L46.0774 22.7325ZM39.289 16.9975H45.6439L43.7512 20.664H37.4573L39.289 16.9975ZM39.289 26.399L37.4573 22.7325H43.7512L45.6439 26.399H39.289Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                        </div>
+                                        <h3>Marketing campaigns</h3>
+                                        <p>Ut enim ad minima veniam, quis nostrum ..</p>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
+                                    <div class="servicesCard">
+                                        <div class="icon">
+                                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_244)">
+                                                    <path
+                                                        d="M24.5 33.3462H9.25106C8.68154 33.3462 8.21982 32.8845 8.21982 32.3149C8.21982 31.7454 8.68154 31.2837 9.25106 31.2837H24.5C25.8637 31.336 25.8716 33.2904 24.5 33.3462Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M39.7488 24.0063H30.2184C28.853 23.9532 28.8484 21.9989 30.2184 21.9438H39.7488C41.1142 21.9968 41.1188 23.9511 39.7488 24.0063Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M39.7488 35.4429H30.2184C28.853 35.3898 28.8484 33.4355 30.2184 33.3804H39.7488C41.1142 33.4334 41.1188 35.3878 39.7488 35.4429Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M24.9612 6.61308C24.6118 6.43843 24.1936 6.47612 23.8812 6.71049C19.9783 9.59404 16.6868 9.40945 12.1101 9.36342C6.99957 9.56507 6.92804 16.8397 12.032 17.1422V20.8782C12.032 21.4477 12.4937 21.9095 13.0632 21.9095C13.6327 21.9095 14.0944 21.4477 14.0944 20.8782V17.1442H14.9693C18.1352 17.0004 21.3445 17.8668 23.8811 19.7972C24.5449 20.3092 25.5422 19.8076 25.5311 18.9721V7.53539C25.5312 7.14483 25.3106 6.78783 24.9612 6.61308ZM10.2823 13.2538C10.2823 12.2459 11.1023 11.4259 12.1102 11.4259H13.9382V15.0818H12.1102C11.1023 15.0818 10.2823 14.2617 10.2823 13.2538ZM23.4688 17.0706C21.2 15.7918 18.6106 15.0956 16.0007 15.082V11.4257C18.6106 11.412 21.2 10.7158 23.4688 9.4371V17.0706Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M24.5 27.6278H9.25106C8.68154 27.6278 8.21982 27.1661 8.21982 26.5966C8.21982 26.027 8.68154 25.5653 9.25106 25.5653H24.5C25.8637 25.6176 25.8716 27.572 24.5 27.6278Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M45.4672 10.5071H31.2496V1.81713C31.2496 1.24761 30.7879 0.785889 30.2184 0.785889H3.53271C2.96318 0.785889 2.50146 1.24761 2.50146 1.81713V38.0333C2.50146 38.6028 2.96318 39.0645 3.53271 39.0645H17.7503V47.7545C17.7404 48.3074 18.2281 48.7958 18.7816 48.7857H45.4671C46.0366 48.7857 46.4984 48.324 46.4984 47.7545V11.5383C46.4985 10.9688 46.0367 10.5071 45.4672 10.5071ZM4.56396 2.84838H29.187V37.002H4.56396V2.84838ZM27.4128 39.0645L19.8129 45.5244V39.0645H27.4128ZM44.436 46.7232H21.5872L28.1307 41.1612H39.7489C40.3185 41.1612 40.7802 40.6995 40.7802 40.13C40.7802 39.5605 40.3185 39.0987 39.7489 39.0987H30.5571L30.8861 38.819C31.114 38.6249 31.2492 38.3325 31.2495 38.0333V29.7245H39.7488C40.3183 29.7245 40.78 29.2628 40.78 28.6933C40.78 28.1238 40.3183 27.662 39.7488 27.662H31.2495V18.2878H39.7488C40.3183 18.2878 40.78 17.8261 40.78 17.2566C40.78 16.687 40.3183 16.2253 39.7488 16.2253H31.2495V12.5695H44.4359V46.7232H44.436Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_244">
+                                                        <rect width="48" height="48" fill="white"
+                                                            transform="translate(0.5 0.785889)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+
+                                        </div>
+                                        <h3>Brand activations</h3>
+                                        <p>Ut enim ad minima veniam, quis nostrum ..</p>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
+                                    <div class="servicesCard">
+                                        <div class="icon">
+                                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_228)">
+                                                    <path
+                                                        d="M24.5586 25.089C24.3904 25.089 24.2223 25.0479 24.0697 24.9657L14.1578 19.6285C13.8238 19.4487 13.6154 19.1 13.6154 18.7206V6.52152C13.6154 6.14211 13.8238 5.79336 14.1578 5.61355L24.0697 0.276364C24.3749 0.112021 24.7423 0.112021 25.0475 0.276364L34.9594 5.61355C35.2934 5.79336 35.5018 6.14211 35.5018 6.52152V18.7206C35.5018 19.1001 35.2934 19.4488 34.9594 19.6286L25.0475 24.9658C24.8949 25.0479 24.7268 25.089 24.5586 25.089ZM15.6779 18.1046L24.5586 22.8865L33.4393 18.1046V7.13746L24.5586 2.35555L15.6779 7.13746V18.1046Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M11.5017 48.1531C11.3336 48.1531 11.1655 48.112 11.0128 48.0298L1.10094 42.6926C0.766906 42.5128 0.558594 42.164 0.558594 41.7846V29.5855C0.558594 29.2061 0.766906 28.8574 1.10094 28.6775L11.0128 23.3404C11.3179 23.176 11.6854 23.1759 11.9907 23.3404L21.9025 28.6775C22.2365 28.8574 22.4448 29.2061 22.4448 29.5855V41.7846C22.4448 42.164 22.2365 42.5128 21.9025 42.6926L11.9907 48.0298C11.8379 48.1119 11.6699 48.1531 11.5017 48.1531ZM2.62109 41.1687L11.5017 45.9506L20.3823 41.1687V30.2015L11.5017 25.4195L2.62109 30.2015V41.1687Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M37.6154 48.1531C37.4472 48.1531 37.2791 48.112 37.1265 48.0298L27.2147 42.6926C26.8807 42.5128 26.6724 42.164 26.6724 41.7846V29.5855C26.6724 29.2061 26.8807 28.8574 27.2147 28.6775L37.1265 23.3404C37.4318 23.176 37.7991 23.176 38.1043 23.3404L48.0162 28.6775C48.3503 28.8574 48.5586 29.2061 48.5586 29.5855V41.7846C48.5586 42.164 48.3503 42.5128 48.0162 42.6926L38.1043 48.0298C37.9518 48.1119 37.7836 48.1531 37.6154 48.1531ZM28.735 41.1687L37.6155 45.9506L46.4961 41.1687V30.2015L37.6154 25.4195L28.7349 30.2015V41.1687H28.735Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M27.6084 11.3649H21.5088C20.1425 11.3114 20.1397 9.35716 21.5088 9.30241H27.6084C28.1779 9.30241 28.6396 9.76413 28.6396 10.3337C28.6396 10.9032 28.1779 11.3649 27.6084 11.3649Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M26.0835 15.9396H23.0338C22.4642 15.9396 22.0025 15.4779 22.0025 14.9084C22.0025 14.3389 22.4642 13.8771 23.0338 13.8771H26.0835C27.4506 13.931 27.4518 15.8853 26.0835 15.9396Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M14.5514 34.429H8.45187C7.08556 34.3755 7.08284 32.4213 8.45187 32.3665H14.5513C15.1209 32.3665 15.5826 32.8282 15.5826 33.3978C15.5826 33.9673 15.121 34.429 14.5514 34.429Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M13.0266 39.0037H9.97681C9.40728 39.0037 8.94556 38.542 8.94556 37.9725C8.94556 37.4029 9.40728 36.9412 9.97681 36.9412H13.0266C14.3937 36.9951 14.3949 38.9493 13.0266 39.0037Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M40.6653 34.429H34.5658C33.1995 34.3755 33.1967 32.4213 34.5658 32.3665H40.6652C41.2348 32.3665 41.6965 32.8282 41.6965 33.3978C41.6965 33.9673 41.2349 34.429 40.6653 34.429Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M39.1404 39.0037H36.0906C35.521 39.0037 35.0593 38.542 35.0593 37.9725C35.0593 37.4029 35.521 36.9412 36.0906 36.9412H39.1404C40.5075 36.9951 40.5086 38.9493 39.1404 39.0037Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_228">
+                                                        <rect width="48" height="48" fill="white"
+                                                            transform="translate(0.558594 0.153076)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                        </div>
+                                        <h3>Marketing Strategy</h3>
+                                        <p>Ut enim ad minima veniam, quis nostrum ..</p>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
+                                    <div class="servicesCard">
+                                        <div class="icon">
+                                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_201)">
+                                                    <path
+                                                        d="M40.4706 48.4812H8.77945C8.20992 48.4812 7.7482 48.0195 7.7482 47.4499V12.2906C7.7482 11.7211 8.19379 11.4559 8.76332 11.4559C9.33286 11.4559 9.8107 11.7211 9.8107 12.2906V46.4187H39.4394V12.2906C39.4394 11.7211 39.8693 11.8549 40.4388 11.8549C41.0084 11.8549 41.5019 11.721 41.5019 12.2906V47.4499C41.5019 48.0195 41.0401 48.4812 40.4706 48.4812Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M34.8463 7.96657H14.4037C13.8488 7.96657 13.3989 7.50485 13.3989 6.93532C13.3989 6.36579 13.8487 5.90407 14.4037 5.90407H34.8463C36.1737 5.95629 36.1845 7.90947 34.8463 7.96657Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M23.7461 21.8733L22.9192 19.7346C22.8969 19.6375 22.8611 19.5456 22.8135 19.4612C22.8054 19.4408 20.2929 12.9406 20.2851 12.922C19.8717 11.9014 18.3993 11.9024 17.9877 12.924C17.9743 12.9367 15.4382 19.4725 15.4267 19.4871C15.3921 19.5529 15.3649 19.6231 15.345 19.6964L14.4968 21.8704C14.2898 22.401 14.5521 22.9989 15.0827 23.2059C15.6134 23.4131 16.2112 23.1507 16.4183 22.6201L17.0512 20.9978H21.1962L21.8222 22.6171C21.9804 23.026 22.3707 23.2767 22.7844 23.2767C23.4906 23.2892 24.0164 22.531 23.7461 21.8733ZM17.856 18.9353L19.1333 15.6618L20.3989 18.9353H17.856Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M27.6053 23.1302C27.0358 23.1302 26.574 22.6685 26.574 22.0989V13.2492C26.574 12.6797 27.0358 12.218 27.6053 12.218C28.1748 12.218 28.6365 12.6797 28.6365 13.2492V22.0989C28.6365 22.6685 28.1748 23.1302 27.6053 23.1302Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M27.6236 23.2764C27.0711 23.287 26.5834 22.8017 26.5923 22.2489C26.5857 21.1728 26.5757 14.4095 26.5741 13.2418C26.5622 12.6875 27.0507 12.1975 27.6054 12.2087H30.1558C36.3597 12.1153 36.3527 23.1446 30.2485 23.2565C29.5183 23.2689 27.7051 23.2762 27.6236 23.2764ZM28.6384 14.2711C28.6437 16.9574 28.6417 18.6038 28.6513 21.2088C29.2093 21.2054 29.8555 21.2005 30.2124 21.1942C31.973 21.1635 32.7612 19.4385 32.7612 17.7425C32.7612 16.0643 32.0767 14.2712 30.1558 14.2712H28.6384V14.2711Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M34.7521 36.9051H14.4978C13.9283 36.9051 13.4666 36.4434 13.4666 35.8739V27.9634C13.4666 27.3939 13.9283 26.9322 14.4978 26.9322H34.7522C35.3218 26.9322 35.7835 27.3939 35.7835 27.9634V35.8739C35.7834 36.4434 35.3218 36.9051 34.7521 36.9051ZM15.5291 34.8426H33.721V28.9947H15.5291V34.8426Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M34.7521 42.6235H14.4978C13.9283 42.6235 13.4666 42.1618 13.4666 41.5923C13.4666 41.0227 13.9283 40.561 14.4978 40.561H34.7522C36.1143 40.6126 36.1252 42.5672 34.7521 42.6235Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M7.37611 14.7244C7.11221 14.7244 6.8483 14.6237 6.64692 14.4223L2.60339 10.3789C2.41008 10.1855 2.30133 9.92314 2.30133 9.64967C2.30133 9.37611 2.40999 9.11389 2.60339 8.92048L10.7406 0.783264C11.1435 0.380514 11.7962 0.380514 12.1991 0.783264L16.2426 4.8267C16.4359 5.02011 16.5447 5.28242 16.5447 5.55589C16.5447 5.82936 16.436 6.09167 16.2426 6.28508L8.1053 14.4224C7.90392 14.6238 7.64002 14.7244 7.37611 14.7244ZM4.79105 9.64967L7.37611 12.2347L14.0549 5.55589L11.4698 2.97083L4.79105 9.64967Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M41.8739 14.7244C41.6099 14.7244 41.346 14.6237 41.1447 14.4223L33.0074 6.28507C32.6084 5.90117 32.6077 5.21051 33.0074 4.82661L37.051 0.783167C37.4537 0.380417 38.1067 0.380511 38.5094 0.783167L46.6467 8.92039C46.84 9.11379 46.9487 9.3761 46.9487 9.64957C46.9487 9.92304 46.8401 10.1854 46.6467 10.3788L42.6031 14.4222C42.4018 14.6237 42.1378 14.7244 41.8739 14.7244ZM35.1951 5.55598L41.8739 12.2348L44.4589 9.64976L37.7802 2.97092L35.1951 5.55598Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_201">
+                                                        <rect width="48" height="48" fill="white"
+                                                            transform="translate(0.625 0.481201)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+
+                                        </div>
+                                        <h3>Ad bookings</h3>
+                                        <p>Ut enim ad minima veniam, quis nostrum ..</p>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="col-lg-4 col-md-6 col-sm-12 mb-30">
+                                    <div class="servicesCard">
+                                        <div class="icon">
+                                            <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_0_263)">
+                                                    <path
+                                                        d="M24.723 41.2472C22.4657 41.2472 20.6293 39.4107 20.6293 37.1535V33.6902C20.6293 33.1207 21.0911 32.6589 21.6606 32.6589C22.2301 32.6589 22.6918 33.1207 22.6918 33.6902V37.1535C22.6918 38.2735 23.6031 39.1847 24.723 39.1847C25.2575 39.1847 25.7809 38.9679 26.1589 38.5898C26.5373 38.2114 26.7542 37.6878 26.7542 37.1534V33.586C26.7542 33.0165 27.2159 32.5548 27.7855 32.5548C28.355 32.5548 28.8167 33.0165 28.8167 33.586V37.1534C28.8167 38.2465 28.3908 39.2745 27.6174 40.048C26.8555 40.8101 25.8005 41.2472 24.723 41.2472Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M39.5352 47.1062C39.5352 47.6762 39.0739 48.1375 38.5039 48.1375H10.9414C10.3723 48.1375 9.91016 47.6762 9.91016 47.1062C9.91016 46.5371 10.3723 46.075 10.9414 46.075H14.6127L16.0423 33.2115C16.1052 32.6453 16.6142 32.2375 17.1805 32.3003C17.7467 32.3631 18.1545 32.8731 18.0917 33.4393L16.6883 46.075H32.4608L31.3517 33.415C31.302 32.8478 31.722 32.3481 32.2892 32.2984C32.8564 32.2478 33.357 32.6678 33.4067 33.235L34.5317 46.075H38.5039C39.0739 46.075 39.5352 46.5371 39.5352 47.1062Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M47.6914 0.137451H1.75391C1.18484 0.137451 0.722656 0.599639 0.722656 1.1687V33.325C0.722656 33.895 1.18484 34.3562 1.75391 34.3562H47.6914C48.2614 34.3562 48.7227 33.895 48.7227 33.325V1.1687C48.7227 0.599639 48.2614 0.137451 47.6914 0.137451ZM12.0139 32.2937C12.5408 25.7434 18.0392 20.575 24.7227 20.575C31.4202 20.575 36.9261 25.7471 37.4342 32.2937H12.0139ZM19.6292 13.419C19.6292 10.6103 21.9148 8.32558 24.7227 8.32558C27.5314 8.32558 29.817 10.6103 29.817 13.419C29.817 16.2278 27.5314 18.5125 24.7227 18.5125C21.9148 18.5125 19.6292 16.2278 19.6292 13.419ZM46.6602 32.2937H39.5023C39.268 28.7125 37.7595 25.3825 35.1955 22.8287C33.4442 21.084 31.3292 19.8306 29.0192 19.1387C30.7555 17.8318 31.8795 15.7543 31.8795 13.419C31.8795 9.47308 28.6686 6.26308 24.7227 6.26308C20.7767 6.26308 17.5667 9.47308 17.5667 13.419C17.5667 15.7581 18.6945 17.8384 20.4355 19.1453C14.667 20.8928 10.3761 26.0706 9.94672 32.2937H2.78516V2.19995H46.6602V32.2937Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M12.3743 28.2315H7.87935C7.30982 28.2315 6.8481 27.7698 6.8481 27.2003V22.7052C6.8481 22.1357 7.30982 21.674 7.87935 21.674C8.44888 21.674 8.9106 22.1357 8.9106 22.7052V26.169H12.3743C12.9438 26.169 13.4055 26.6307 13.4055 27.2003C13.4055 27.7698 12.9438 28.2315 12.3743 28.2315Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M7.87935 12.8203C7.30982 12.8203 6.8481 12.3586 6.8481 11.7891V7.29405C6.8481 6.72452 7.30982 6.2628 7.87935 6.2628H12.3743C12.9438 6.2628 13.4055 6.72452 13.4055 7.29405C13.4055 7.86358 12.9438 8.3253 12.3743 8.3253H8.9106V11.789C8.9106 12.3586 8.44888 12.8203 7.87935 12.8203Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M41.5668 12.8203C40.9973 12.8203 40.5356 12.3586 40.5356 11.7891V8.3253H37.0718C36.5022 8.3253 36.0405 7.86358 36.0405 7.29405C36.0405 6.72452 36.5022 6.2628 37.0718 6.2628H41.5668C42.1363 6.2628 42.5981 6.72452 42.5981 7.29405V11.789C42.5981 12.3586 42.1363 12.8203 41.5668 12.8203Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M41.5668 28.2315H37.0718C36.5022 28.2315 36.0405 27.7698 36.0405 27.2003C36.0405 26.6307 36.5022 26.169 37.0718 26.169H40.5356V22.7052C40.5356 22.1357 40.9973 21.674 41.5668 21.674C42.1363 21.674 42.5981 22.1357 42.5981 22.7052V27.2003C42.5981 27.7698 42.1363 28.2315 41.5668 28.2315Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_0_263">
+                                                        <rect width="48" height="48" fill="white"
+                                                            transform="translate(0.722656 0.137451)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+
+
+                                        </div>
+                                        <h3>Infliuencer managem..</h3>
+                                        <p>Ut enim ad minima veniam, quis nostrum ..</p>
+                                    </div>
+                                </div>
+                                <!---->
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">Social </div>
+                        <!---->
+                        <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">digtal </div>
+                        <!---->
+                        <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">..studio.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid no-padding" id="about">
+            <div class='container_sec'>
+                <div class='reveal'>
+                    <img class="w-100 d-block" src="assets/images/services/OurServices.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- We’re grateful to work with - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="gratefulWorkWith section" data-bg="#fff" data-text="#000" data-aos="fade-up">
+        <div class="container">
+            <h3 class="gratefulWorkWithTitle text-center">
+                We’re grateful to work with
+            </h3>
+            <div class="swiper-container mb-30 swiper--top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/tiktok.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/mintmobile.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/wework.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/Unilever.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/UNICEF.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/ScottsMiracleGro.svg" alt="Image">
+                    </div>
+                    <!---->
+                </div>
+            </div>
+            <!---->
+            <div class="swiper-container mb-30 swiper--middle">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/PepsiCo.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/prudential-2.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/natwest.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/Mondelez.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/kraftheinzLog.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/express.svg" alt="Image">
+                    </div>
+                    <!---->
+                </div>
+            </div>
+            <!---->
+            <div class="swiper-container mb-30 swiper--botttom">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/DIAGEO.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/ABI.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/Black-Tinder.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/black-indeed.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/black-lands.svg" alt="Image">
+                    </div>
+                    <!---->
+                    <div class="swiper-slide">
+                        <img src="assets/images/work/black-reckitt.svg" alt="Image">
+                    </div>
+                    <!---->
+                </div>
+            </div>
+            <!---->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!--  Let’s Talk - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <div class="letsTalk section" data-bg="#171c28" data-text="#fff">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="formLetsTalkPart">
+                        <h3 class="formLetsTalkPartTitle">
+                            Let’s Talk
+                        </h3>
+                        <p class="formLetsTalkPartDes">
+                            This is the best Side on the site. It’s what people push right before we work with someone
+                            awesome. Fill it, Go ahead and Make our day.
+                        </p>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="full name">
+                            </div>
+                            <!---->
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Company Name">
+                            </div>
+                            <!---->
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <!---->
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <!---->
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Subject">
+                            </div>
+                            <!---->
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message ( How can we help you )"
+                                    rows="7"></textarea>
+                            </div>
+                            <!---->
+                            <button class="btn btn-send">
+                                Send
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.65845 14.2716L14.7747 1.16406L1.65845 14.2716ZM14.7747 1.16406H6.22103H14.7747ZM14.7747 1.16406V9.14279V1.16406Z"
+                                        fill="black" />
+                                    <path
+                                        d="M1.65845 14.2716L14.7747 1.16406M14.7747 1.16406H6.22103M14.7747 1.16406V9.14279"
+                                        stroke="#141313" stroke-width="2" stroke-linecap="square" />
+                                </svg>
+
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12" id="myScrollspy">
+                    <div class="myScrollspy">
+                        <img class="w-100 d-block letstalkimagepart" src="assets/images/letstalk/letstalk.gif"
+                            alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!--  scrolltop- style you can find in style.css -->
+    <!-- ============================================================== -->
+    <a id="Scrollbutton">
+        TOP
+    </a>
+    <!-- ============================================================== -->
+    <!--  Footer- style you can find in style.css -->
+    <!-- ============================================================== -->
+    <footer class="footerSection section" data-bg="#171c28" data-text="#fff">
+        <div class="container footerBorder">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="titleFooter">
+                        <h3>Office</h3>
+                        <ul>
+                            <li>
+                                <span>
+                                    Rayad City, Sharq, Derwaza51 Tower , 5th Floor
+                                </span>
+                            </li>
+                            <li>
+                                <a href="#" class="getDirection">Get Directions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="titleFooter">
+                        <h3>Contact us</h3>
+                        <ul>
+                            <li>
+                                <a href="mailto:Info@Moxatex.com" target="_blank">Info@Moxatex.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:+96697657453" target="_blank">+966 9765 7453</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="titleFooter">
+                        <h3>Links</h3>
+                        <ul>
+                            <li>
+                                <a class="js-anchor-link" href="#work">Works</a>
+                            </li>
+                            <li>
+                                <a class="js-anchor-link" href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a class="js-anchor-link" href="#about">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="titleFooter">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Tiktok</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+            </div>
+            <!---->
+            <div class="footerBottom">
+                <ul>
+                    <li>© 2023 Moxatex. All right reserved</li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Cookies Settings</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- ============================================================== -->
+    <!--  - style you can find in style.css -->
+    <!-- ============================================================== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!--JQuery Js-->
+    <script src="assets/js/jQuery.js"></script>
+    <!--ScrollTrigger-->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!--lenis-->
+    <script src="assets/js/lenis.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/script_lenis.js"></script>
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--Aos-->
+    <script src="assets/js/aos.js"></script>
+    <!--Main Js-->
+    <script src="assets/js/main.js"></script>
+    <!--categorySlider-->
+    <script src="assets/js/swiperSlider.js"></script>
+</body>
+
+</html>
