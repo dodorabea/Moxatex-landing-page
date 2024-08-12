@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 2000px) {
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media only screen and (max-width: 1900px) {
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 1750px) {
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media only screen and (max-width: 1450px) {
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 1400px) {
+  .cardSlider .headerPart {
+    padding: 32px 10px 0 18px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 1200px) {
+  .ourServicesTitle .mainTitle,
+  .ourServicesTitle .mainTitle > * {
+    font-size: 11vw;
+  }
+
+  .ourServicesTitle span {
+    font-size: 6.3vw;
+  }
+
+  h1.mainTitle {
+    font-size: 9vw;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 1100px) {
+  .cardSlider .headerPart h3 {
+    font-size: 1.5rem;
+  }
+
+  .recentWorksBoxiTextPart h4 {
+    font-size: 3rem;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 991px) {
+  h1.mainTitle {
+    font-size: 7.5vw;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .recentWorks .swiper--text {
+    margin-bottom: 10px;
+  }
+
+  .ourServicesTitle .mainTitle,
+  .ourServicesTitle .mainTitle > * {
+    font-size: 11vw;
+  }
+
+  .ourServicesTitle span {
+    font-size: 6vw;
+    margin-top: -65px;
+  }
+
+  .nav-tabs .nav-link.text {
+    font-size: 2rem;
+  }
+
+  .recentWorksBoxiImagePart img {
+    height: 452px;
+  }
+
+  .recentWorksBox {
+    gap: 10px;
+  }
+
+  .formLetsTalkPartTitle {
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+
+  .formLetsTalkPartDes {
+    font-size: 1.2rem;
+    line-height: 31.6px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media only screen and (max-width: 798px) {
+  .ourServicesTitle {
+    margin-bottom: 15px;
+  }
+
+  .resultDrivenAgencyTitle {
+    font-size: 5.5vw;
+    line-height: 4.2rem;
+  }
+
+  .recentWorksBox {
+    gap: 30px;
+  }
+
+  .recentWorksBoxiImagePart img {
+    height: 489px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media only screen and (max-width: 769px) {
+  h1.mainTitle {
+    font-size: 7.2vw;
+  }
+
+  .makeAds p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .letsTalk .row {
+    flex-direction: column-reverse;
+  }
+
+  .letstalkimagepart {
+    padding-left: 0;
+  }
+
+  .nav-tabs {
+    border: 0;
+    padding-bottom: 60px;
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+  }
+
+  .nav-item {
+    padding-bottom: 15px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media only screen and (max-width: 768px) {
+  .cardSlider .headerPart h3 {
+    font-size: 1rem;
+  }
+
+  .cardSlider .headerPart span {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .resultDrivenAgencyP {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0;
+  }
+  .tapTitleWithImage h3 img {
+    width: 212px;
+    top: 36px;
+  }
+  .tapTitleWithImage h3 {
+    font-size: 18.295313vw;
+    line-height: 105px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media only screen and (max-width: 575px) {
+  .recentWorksBoxiTextPart h4 {
+    font-size: 3rem;
+  }
+
+  .gratefulWorkWithTitle {
+    font-size: 3rem;
+  }
+
+  .ourServicesTitle .mainTitle,
+  .ourServicesTitle .mainTitle > * {
+    padding-bottom: 71px;
+    font-size: 17vw;
+  }
+
+  .ourServicesTitle span {
+    font-size: 8vw;
+    margin-top: -44px;
+    line-height: normal;
+  }
+
+  .nav-tabs {
+    margin-top: 40px;
+  }
+
+  .nav-tabs .nav-link.text {
+    font-size: 1.5rem;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 1023px) {
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 575px) {
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 490px) {
+  #circle svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  .formLetsTalkPartTitle {
+    font-size: 3rem;
+  }
+
+  .btn-send {
+    display: block;
+    width: 100%;
+  }
+  .tapTitleWithImage h3 {
+    line-height: 100px;
+  }
+  .tapTitleWithImage h3 img {
+    width: 192px;
+    top: 36px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 390px) {
+  .gratefulWorkWithTitle {
+    font-size: 2rem;
+  }
+
+  .servicesCard h3 {
+    font-size: 1.5rem;
+  }
+
+  .servicesCard p {
+    font-size: 1.1rem;
+  }
+
+  .servicesCard .icon {
+    margin-bottom: 30px;
+  }
+}
+
+/********************************/
+/*      Css      */
+/********************************/
+@media screen and (max-width: 380px) {
+  h1.mainTitle {
+    font-size: 9.2vw;
+  }
+
+  .resultDrivenAgencyTitle {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  .categorySlider {
+    padding-bottom: 75px;
+  }
+}
+
+/********************************/
+/*    Modal  Css      */
+/********************************/
+@media (max-width: 280px) {
+  .tapTitleWithImage h3 img {
+    width: 132px;
+    top: 25px;
+    margin-left: -14px;
+  }
+  .tapTitleWithImage h3 {
+    line-height: 73px;
+  }
+}
